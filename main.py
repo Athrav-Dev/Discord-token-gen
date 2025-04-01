@@ -95,7 +95,7 @@ def print_templog(temp_email):
 
 def generate_yopmail_email():
     username = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
-    email = f"{username}@1xp.fr"
+    email = f"{username}@y.dldweb.info"
     return username, email
 
 def generate_random_string(length=12):
